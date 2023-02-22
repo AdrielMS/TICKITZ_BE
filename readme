@@ -74,12 +74,12 @@ This is an example of how to list things you need to use the software and how to
  |.....
 
 ## Database
-DB_HOST = [DB_HOST]
-DB_USER = = [DB_USER]
-DB_NAME = [DB_NAME]
-DB_PASSWORD = [DB_PASSWORD]
-DB_PORT = [DB_PORT]
 
+DB_USER= [DB_USER]
+DB_HOST= [DB_HOST]
+DB_DATABASE= [DB_DATABASE]
+DB_PASSWORD= [DB_PASSWORD]
+DB_PORT= [DB_PORT]
 ## Rest Api
 You can view my Postman collection https://documenter.getpostman.com/view/24665123/2s93CKPuc3 
 Run in Postman
