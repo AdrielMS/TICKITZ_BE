@@ -1,5 +1,5 @@
 
-# About The Project
+## About The Project
 This is the API for the Zwallet application, one of which is to handle money transfers between users, top up money manually or through payment gateways, manage topups, and others.
 
 # Built With
@@ -31,7 +31,7 @@ This is an example of how to list things you need to use the software and how to
 ● npm run serve
 
 
-# Folder Strukture
+## Folder Strukture
 📦helper
  ┣ 📜connection.js
  ┣ 📜pagination.js
@@ -74,14 +74,14 @@ This is an example of how to list things you need to use the software and how to
  ┃ ┗ 📜user.routes.js
  |.....
 
-# Database
+## Database
 DB_HOST = [DB_HOST]
 DB_USER = = [DB_USER]
 DB_NAME = [DB_NAME]
 DB_PASSWORD = [DB_PASSWORD]
 DB_PORT = [DB_PORT]
 
-# Rest Api
+## Rest Api
 You can view my Postman collection https://documenter.getpostman.com/view/24665123/2s93CKPuc3 
 Run in Postman
 
