@@ -1,1 +1,89 @@
-jangan lupa buat .env
+
+# About The Project
+This is the API for the Zwallet application, one of which is to handle money transfers between users, top up money manually or through payment gateways, manage topups, and others.
+
+# Built With
+Node.js
+Express.js
+JSON Web Tokens
+and other
+
+
+## Getting Started
+# Prerequisites
+This is an example of how to list things you need to use the software and how to install them. 
+    ● nodejs
+# Requirements
+    ● Node.js
+    ● Postman for testing
+    ● Database
+
+# Installation
+● Clone This Back End Repo
+● git clone https://github.com/LESSER-TECH/TICKITZ_BE.git
+● Go To Folder Repo
+● cd TICKITZ_BE
+● Install Module
+● npm install
+● Make a new database and import tickitzz.sql
+● Setup .env
+● Starting application
+● npm run serve
+
+
+# Folder Strukture
+📦helper
+ ┣ 📜connection.js
+ ┣ 📜pagination.js
+ ┗ 📜readme
+ 📦public
+ ┗ 📂uploads
+ ┃ ┗ 📂images
+ ┃ ┃ ┣ 📜....
+📦src
+ ┣ 📂controllers
+ ┃ ┣ 📜auth.controllers.js
+ ┃ ┣ 📜movies.controllers.js
+ ┃ ┣ 📜order.controllers.js
+ ┃ ┣ 📜readme
+ ┃ ┣ 📜theaters.controllers.js
+ ┃ ┗ 📜user.controllers.js
+ ┣ 📂middleware
+ ┃ ┣ 📜formUpload.js
+ ┃ ┣ 📜readme
+ ┃ ┣ 📜upload.js
+ ┃ ┗ 📜verifyToken.js
+ ┣ 📂models
+ ┃ ┣ 📜auth.models.js
+ ┃ ┣ 📜movies.models.js
+ ┃ ┣ 📜order.models.js
+ ┃ ┣ 📜readme
+ ┃ ┣ 📜theaters.models.js
+ ┃ ┗ 📜user.models.js
+ ┣ 📂public
+ ┃ ┗ 📂uploads
+ ┃ ┃ ┗ 📂images
+ ┃ ┃ ┃ ┣ 📜....
+ ┗ 📂routes
+ ┃ ┣ 📜auth.routes.js
+ ┃ ┣ 📜index.js
+ ┃ ┣ 📜movies.routes.js
+ ┃ ┣ 📜order.routes.js
+ ┃ ┣ 📜readme
+ ┃ ┣ 📜theaters.routes.js
+ ┃ ┗ 📜user.routes.js
+ |.....
+
+# Database
+DB_HOST = [DB_HOST]
+DB_USER = = [DB_USER]
+DB_NAME = [DB_NAME]
+DB_PASSWORD = [DB_PASSWORD]
+DB_PORT = [DB_PORT]
+
+# Rest Api
+You can view my Postman collection https://documenter.getpostman.com/view/24665123/2s93CKPuc3 
+Run in Postman
+
+
+
