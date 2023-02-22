@@ -1,6 +1,5 @@
 
 ## About The Project
-This is the API for the Zwallet application, one of which is to handle money transfers between users, top up money manually or through payment gateways, manage topups, and others.
 
 # Built With
 Node.js
