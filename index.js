@@ -17,7 +17,9 @@ const router = require("./src/routes/index");
 app.use(urlencoded({ extended: true }));
 
 //static file
+
 app.use(express.static("public"));
+
 app.use(express.static("src"));
 
 //menerima raw JSON
