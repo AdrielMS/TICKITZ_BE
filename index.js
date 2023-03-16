@@ -7,7 +7,8 @@ const app = express();
 const cors = require("cors");
 
 //port
-const port = 5000;
+// const port = 5000;
+const port = process.env.PORT || 5000;
 
 //import internal
 const db = require("./helper/connection");
